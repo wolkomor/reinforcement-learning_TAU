@@ -1,0 +1,36 @@
+Vered Zilberstein   200397354   veredz1@mail.tau.ac.il
+Or Wolkomir         308402163   orwolkomir@mail.tau.ac.il
+Eytan Chaimovitz    203486550   eytanirvingc@mail.tau.ac.il
+
+
+File main.py was changed to receive hyper-parameters.
+File dqn_model.py was extended with the bonus BN model.
+File dqn_learn.py was filled with the required answers along with changes to allow saving pickle files periodically.
+
+The code can be found at:
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Project
+
+Code for Question 1: Basic Q-learning performance
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python main.py --model DQN --path statistics.pkl
+output:
+pickle file containing required data. in order to get a plot run:
+/usr/local/lib/anaconda3-5.1.0/bin/python plot_statistics.py --pkls statistics.pkl --labels regular
+
+Code for Question 2: Experimenting with hyperparameters
+example run:
+/usr/local/lib/anaconda3-5.1.0/bin/python main.py --model DQN --path statistics.pkl --rbs 100000
+output:
+pickle file containing required data. in order to get a plot run:
+/usr/local/lib/anaconda3-5.1.0/bin/python plot_statistics.py --pkls statistics_rbs_0.1m.pkl --labels regular rbs_0.1m
+
+Code for Question: Bonus
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python main.py --model BN --path statistics_bn.pkl
+output:
+percent of successful episodes and the final Q table
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python network_Q.py
+output:
+pickle file containing required data. in order to get a plot run:
+/usr/local/lib/anaconda3-5.1.0/bin/python plot_statistics.py --pkls statistics.pkl statistics_bn.pkl --labels regular bn

@@ -1,0 +1,28 @@
+Vered Zilberstein   200397354   veredz1@mail.tau.ac.il
+Or Wolkomir         308402163   orwolkomir@mail.tau.ac.il
+Eytan Chaimovitz    203486550   eytanirvingc@mail.tau.ac.il
+
+
+
+File: control.py
+File: cart_pole.py
+Code for Question 1: Off-Policy Model-Based
+run:
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise3
+/usr/local/lib/anaconda3-5.1.0/bin/python control.py
+output:
+steps_to_failure_vs_failures.png - learning curve showing the number of time-steps for which the pole was balanced
+on each trial
+
+File: tabular_Q.py
+File: network_Q.py
+Code for Question 2: Q-Learning
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise3
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python tabular_Q.py
+output:
+percent of successful episodes and the final Q table
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python network_Q.py
+output:
+percent of successful episodes and the final Q table

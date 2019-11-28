@@ -1,0 +1,29 @@
+Vered Zilberstein   200397354   veredz1@mail.tau.ac.il
+Or Wolkomir         308402163   orwolkomir@mail.tau.ac.il
+
+
+File: most_probable_bko.py
+Code for Question 3: Language model, 2.e
+run:
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise1
+/usr/local/lib/anaconda3-5.1.0/bin/python most_probable_bko.py
+output:
+most probable word of size 5
+
+File: mnist_model.py
+Code for Question 1: MNIST
+run:
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise1
+/usr/local/lib/anaconda3-5.1.0/bin/python mnist_model.py
+output:
+mnist.png - plots of the training loss curve comparing all
+the parts together, the accuracy you achieved on the test set and a path
+also, a pkl file for every model: model_unoptimized.pkl, model_optimized.pkl, model_deep.pkl
+
+File: cart_pole.py
+Code for Question 2: OpenAI Gym
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise1
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python cart_pole.py
+output:
+cart_pole.png - the histogram plot and the average number of episodes

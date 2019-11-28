@@ -1,0 +1,22 @@
+Vered Zilberstein   200397354   veredz1@mail.tau.ac.il
+Or Wolkomir         308402163   orwolkomir@mail.tau.ac.il
+Eytan Chaimovitz    203486550   eytanirvingc@mail.tau.ac.il
+
+
+
+File: value_iter.py
+Code for Question 1: Value Iteration
+run:
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise2
+/usr/local/lib/anaconda3-5.1.0/bin/python value_iter.py
+output:
+state_value_as_function_of_iteration.png - plot of each state value as a function of iterations
+stepN.png - the optimal policy at each iteration N
+
+File: policy_iter.py
+Code for Question 2: Policy Iteration
+cd /a/home/cc/students/cs/veredz1/workspace/Homework/Reinforcement_Learning_TAU/Exercise2
+run:
+/usr/local/lib/anaconda3-5.1.0/bin/python policy_iter.py
+output:
+policy_iteration_as_function_of_iteration.png - iteration table outputted by the code and value plot
